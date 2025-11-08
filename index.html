@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage Todo List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="todo-div">
+        <div class="task-input">
+          <input type="text" />
+        </div>
+        <div class="ctr-div">
+          <span class="active">All</span>
+          <span>Pending</span>
+          <span>Complete</span>
+          <button class="clear-btn">Clear</button>
+        </div>
+        <hr />
+        <div class="todos">
+          <ul class="todos-list">
+            <li class="todo-items">
+              <label for="todo">
+                <input type="checkbox" id="todo" />
+                <span class="todo-txt">Take a dinner.</span>
+              </label>
+              <div>
+                <i class="fa-solid fa-pen-to-square edit-ic"></i>
+                <i class="fa-solid fa-trash delete-ic"></i>
+              </div>
+            </li>
+            <li class="todo-items">
+              <label for="todo">
+                <input type="checkbox" id="todo" />
+                <span class="todo-txt">Take a dinner.</span>
+              </label>
+              <div>
+                <i class="fa-solid fa-pen-to-square edit-ic"></i>
+                <i class="fa-solid fa-trash delete-ic"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./app.js"></script>
+</html>
