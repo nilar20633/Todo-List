@@ -77,9 +77,18 @@ section {
   justify-content: space-between;
 }
 
-.todo-items span {
+.todo-items label {
+  display: flex;
+  align-items: center;
+}
+
+.todo-items p {
   font-weight: 500;
-  margin-left: 4px;
+  margin-left: 6px;
+}
+
+.todo-items p.active {
+  text-decoration: line-through;
 }
 
 .todos-list div i {
